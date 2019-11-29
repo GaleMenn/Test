@@ -1,138 +1,130 @@
 /* ---------- ↓ NAVIGATION BAR ↓ ---------- */
-body{
-    margin: 0;
-    padding: 0;
-    background-color: lightgray;
-
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
 }
 
-.nav{
-    text-align: center;
-    font-size: 2.5em;
-    padding-top: 3%;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-bottom: 1%;
-    font-weight: 500;
-    font-family:inherit;
-    background-color: white;
-    border-bottom: solid black 2px;
-
-
+.nav {
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 3%;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-bottom: 1%;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  border-bottom: solid black 2px;
 }
 
 .nav a {
-    margin-right: 7.5%;
-    text-decoration: none;
-    color:black;
-
+  margin-right: 7.5%;
+  text-decoration: none;
+  color: black;
 }
 
-.nav a:hover{
-    font-weight: bold;
+.nav a:hover {
+  font-weight: bold;
 }
 
-
-
-a:visited{
-    text-decoration: none;
-    color:black;
+a:visited {
+  text-decoration: none;
+  color: black;
 }
 
-.active{
-    text-decoration: none;
-    border-bottom: 3px solid dodgerblue;
+.active {
+  text-decoration: none;
+  border-bottom: 3px solid dodgerblue;
 }
 
-.EDLogo img{
-    position: absolute;
-    font-size: 40px;
-
-    top: 3%;
-    margin-left: 1.5%;
-    width: 13%;
-    height: 10%;
+.EDLogo img {
+  position: absolute;
+  font-size: 40px;
+  top: 3%;
+  margin-left: 1.5%;
+  width: 13%;
+  height: 10%;
 }
 
 /* ---------- ↓ INDEX PAGE ↓ ---------- */
-
-.TekstboksVisjon{
-    margin-top: 3%;
-    background-color: white;
-    height: 28.50em;
-    display:block;
-
+.TekstboksVisjon {
+  margin-top: 3%;
+  background-color: white;
+  height: 28.50em;
+  display: block;
 }
 
-.VisjonTekst p{
-    margin-right: 8%;
-    padding-top: 7%;
-    font-family:sans-serif;
-    font-size: 1.5em;
-    letter-spacing: 0.05em;
-    line-height: 1.5em;
-    font-weight:500;
-}
-.TekstboksVisjon img{
-    float: left;
-    margin-right: 5%;
-    font-size: 40px;
+.VisjonTekst p {
+  margin-right: 8%;
+  padding-top: 7%;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  font-weight: 500;
 }
 
-.VisjonHeleside{
-    margin-top: 3%;
+.TekstboksVisjon img {
+  float: left;
+  margin-right: 5%;
+  font-size: 40px;
+}
+
+.VisjonHeleside {
+  margin-top: 3%;
+  display: none;
+}
+
+.VisjonHeleside img {
+  width: 100%;
+}
+
+.TekstboksProblem {
+  margin-top: 3%;
+  background-color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 70em;
+}
+
+.TekstboksProblem h1 {
+  font-family: inherit;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 2%;
+}
+
+.TekstboksProblem p {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: 500;
+}
+
+.TekstboksStat h1 {
+  text-align: center;
+  font-family: inherit;
+  font-weight: 500;
+  text-decoration: underline;
+  padding-top: 2%;
+}
+
+@media screen and (max-width:1177px) {
+  .TekstboksVisjon {
     display: none;
-}
-.VisjonHeleside img{
-   width: 100%;
-}
+  }
 
+  .VisjonHeleside {
+    display: block;
+  }
 
-.TekstboksProblem{
-    margin-top: 3%;
-    background-color: white;
-    margin-left: 15%;
-    margin-right: 15%;
-    height: 70em;
-
-}
-.TekstboksProblem h1{
-    font-family: inherit;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-    padding-top: 2%;
-}
-
-.TekstboksProblem p{
-    font-family:sans-serif;
-    font-size: 1.5em;
-    letter-spacing: 0.05em;
-    line-height: 1.5em;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-weight:500;
-}
-
-
-.TekstboksStat h1{
-    text-align: center;
-    font-family: inherit;
-    font-weight: 500;
-    text-decoration: underline;
-    padding-top: 2%;
-}
-
-
-@media screen and (max-width:1177px){
-    .TekstboksVisjon{
-        display: none;
-    }
-    .VisjonHeleside{
-        display:block;
-    }
-    .VisjontekstHele{
-    font-family:sans-serif;
+  .VisjontekstHele {
+    font-family: sans-serif;
     font-size: 1.5em;
     letter-spacing: 0.05em;
     line-height: 1.5em;
@@ -143,47 +135,44 @@ a:visited{
     padding-right: 5%;
     padding-bottom: 3%;
     padding-top: 2%;
-    font-weight:500;
+    font-weight: 500;
     background-color: white;
-    }
-    .VisjontekstHele h1{
-        text-align: center;
+  }
+
+  .VisjontekstHele h1 {
+    text-align: center;
     font-family: inherit;
     font-weight: 500;
     text-decoration: underline;
+  }
 
-    }
+  /* ---------- ↓ SOLUTION PAGE ↓ ---------- */
+  .OurSolution {
+    border-color: black;
+    border-style: solid;
+    border-width: 0.5vw;
+  }
 
-    /* ---------- ↓ SOLUTION PAGE ↓ ---------- */
-    .OurSolution {
-      border-color: black;
-      border-style: solid;
-      border-width: 0.5vw;
-    }
+  .TheApp {
+    border-color: black;
+    border-style: solid;
+    border-width: 0.5vw;
+  }
 
-    .TheApp {
-      border-color: black;
-      border-style: solid;
-      border-width: 0.5vw;
-    }
+  /* ---------- ↓ OUR COMPANY PAGE ↓ ---------- */
+  .TekstboksOmFirma {
+    margin-top: 3%;
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 25em;
+    border-radius: 10%;
+  }
 
-
-
-    /* ---------- ↓ OUR COMPANY PAGE ↓ ---------- */
-
-    .TekstboksOmFirma{
-         margin-top: 3%;
-        background-color: white;
-        margin-left: 25%;
-        margin-right: 25%;
-        height: 25em;
-        border-radius: 10%;
-    }
-
-    .TekstboksOmFirma h1{
-        font-family: inherit;
-        font-weight: 500;
-        text-align: center;
-        text-decoration: underline;
-        padding-top: 2%;
-    }
+  .TekstboksOmFirma h1 {
+    font-family: inherit;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 2%;
+  }
