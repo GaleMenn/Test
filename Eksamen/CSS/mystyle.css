@@ -36,8 +36,7 @@ a:visited {
 }
 
 .active {
-  text-decoration: none;
-  border-bottom: 3px solid dodgerblue;
+  text-decoration:underline dodgerblue solid 3px;
 }
 
 
