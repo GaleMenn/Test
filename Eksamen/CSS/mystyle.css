@@ -141,6 +141,7 @@ header::after{
 
   .VisjonHeleside {
     display: block;
+
   }
 
   .VisjontekstHele {
@@ -165,34 +166,183 @@ header::after{
     font-weight: 500;
     text-decoration: underline;
   }
+}
 
   /* ---------- ↓ SOLUTION PAGE ↓ ---------- */
-  .OurSolution {
-    border-color: black;
-    border-style: solid;
-    border-width: 0.5vw;
-  }
+  .Nigeria {
+    background-color: white;
+    margin:3% 20% 3% 20%;
 
-  .TheApp {
-    border-color: black;
-    border-style: solid;
-    border-width: 0.5vw;
   }
+  .Nigeria p{
+    font-family: sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    font-weight: 500;
+    padding: 0 2% 3% 2%;
+  }
+  .Nigeria h1{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 2%;
+  }
+.Solution{
+  background-color: white;
+  margin:3% 20% 3% 20%;
+}
+.Solution h1{
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 2%;
+}
+.Solution p{
+  font-family: sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  font-weight: 500;
+  padding: 0 2% 3% 2%;
+}
+.Product{
+  background-color: white;
+  margin:3% 20% 3% 20%;
+}
+.Product h1{
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 2%;
+}
+.Product p{
+  font-family: sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  font-weight: 500;
+  padding: 0 2% 3% 2%;
+}
+@media screen and (max-width: 1160px){
+  .Nigeria{
+    margin:3% 7% 3% 7%;
+  }
+  .Solution{
+    margin:3% 7% 3% 7%;
+
+  }
+  .Product{
+    margin: 3% 7% 3% 7%;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .Nigeria{
+    margin:3% 4% 3% 4%;
+  }
+  .Solution{
+    margin:3% 4% 3% 4%;
+  }
+  .Product{
+    margin:3% 4% 3% 4%;
+  }
+}
+@media screen and (max-width: 380px){
+  .Nigeria{
+    margin:3% 4% 3% 4%;
+    font-size: 0.8em;
+  }
+  .Solution{
+    margin:3% 4% 3% 4%;
+    font-size: 0.8em;
+  }
+  .Product{
+    margin:3% 4% 3% 4%;
+    font-size: 0.8em;
+  }
+}
+@media screen and (min-width: 1250px)and (max-width: 1499px){
+  .Solution{
+    font-size: 1.2em;
+    margin:3% 15% 3% 15%;
+  }
+  .Nigeria{
+    font-size: 1.2em;
+    margin:3% 15% 3% 15%;
+  }
+  .Product{
+    font-size: 1.2em;
+    margin:3% 15% 3% 15%;
+  }
+}
+
+@media screen and (min-width: 1500px){
+  .Solution{
+    font-size: 1.5em;
+    margin:3% 10% 3% 10%;
+  }
+  .Nigeria{
+    font-size: 1.5em;
+    margin:3% 10% 3% 10%;
+  }
+  .Product{
+    font-size: 1.5em;
+    margin:3% 10% 3% 10%;
+  }
+}
 
   /* ---------- ↓ OUR COMPANY PAGE ↓ ---------- */
-  .TekstboksOmFirma {
+  .Firma {
     margin-top: 3%;
     background-color: white;
-    margin-left: 25%;
-    margin-right: 25%;
-    height: 25em;
-    border-radius: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
-  .TekstboksOmFirma h1 {
+  .Firma h1 {
     font-family: inherit;
     font-weight: 500;
     text-align: center;
     text-decoration: underline;
     padding-top: 2%;
+  }
+  .Firma p{
+    font-family: sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    font-weight: 500;
+    padding: 0 2% 3% 2%;
+  }
+  @media screen and (max-width: 1160px){
+    .Firma{
+      margin:3% 7% 3% 7%;
+    }
+}
+
+  @media screen and (max-width: 640px){
+    .Firma{
+      margin:3% 4% 3% 4%;
+    }
+}
+  @media screen and (max-width: 380px){
+    .Firma{
+      margin:3% 4% 3% 4%;
+      font-size: 0.8em;
+    }
+  }
+
+  @media screen and (min-width: 1250px)and (max-width: 1499px){
+    .Firma{
+      font-size: 1.2em;
+      margin:3% 15% 3% 15%;
+    }
+
+  }
+
+
+  @media screen and (min-width: 1500px){
+    .Firma{
+      font-size: 1.5em;
+      margin:3% 10% 3% 10%;
+    }
+
   }
