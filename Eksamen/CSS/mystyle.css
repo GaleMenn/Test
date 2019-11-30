@@ -5,24 +5,66 @@ body {
   background-color: lightgray;
 }
 
-.NavBar {
+header {
   background: white;
 }
 
-.NavBar img{
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.NavBar {
+  float: right;
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.container .ourLogo{
   float: left;
+  padding: 1rem 0;
 }
 
 .NavBar li{
-  display: inline;
+  display: inline-block;
+  margin-left: 7rem;
+  padding-top: 3rem;
+  position: relative;
 }
+
+.NavBar a{
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.NavBar a:hover{
+  color: blue;
+}
+
+.NavBar a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 200ms;
+}
+
+.NavBar a:hover::before {
+  width: 100%;
+}
+
 .NavBar ul {
-  padding: 0;
+  padding: 0 12rem 0 0;
   margin: 0;
-  list-style-type: none;
-  font-size: 3em;
-  text-align-last: center;
-  background-color: white;
+  list-style: none;
 }
 
 /* ---------- ↓ INDEX PAGE ↓ ---------- */
