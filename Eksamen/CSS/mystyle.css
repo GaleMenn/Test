@@ -140,7 +140,6 @@ header::after {
   background-color: white;
   margin-left: 15%;
   margin-right: 15%;
-  height: 70em;
 }
 
 .TekstboksProblem h1 {
@@ -202,6 +201,36 @@ header::after {
     text-decoration: underline;
   }
 }
+@media screen and (max-width: 1160px){
+  .TekstboksProblem{
+    margin:3% 7% 3% 7%;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .TekstboksProblem{
+    margin:3% 4% 3% 4%;
+  }
+}
+@media screen and (max-width: 380px){
+  .TekstboksProblem{
+    margin:3% 4% 3% 4%;
+    font-size: 0.8em;
+  }
+}
+@media screen and (min-width: 1250px)and (max-width: 1499px){
+  .TekstboksProblem{
+    font-size: 1.2em;
+    margin:3% 15% 3% 15%;
+  }
+}
+
+@media screen and (min-width: 1500px){
+  .TekstboksProblem{
+    font-size: 1.5em;
+    margin:3% 10% 3% 10%;
+  }
+}
 
   /* ---------- ↓ SOLUTION PAGE ↓ ---------- */
   .Nigeria {
@@ -211,7 +240,7 @@ header::after {
   }
   .Nigeria p{
     font-family: sans-serif;
-    font-size: 1.5em;
+    font-size: 1.8vw;
     letter-spacing: 0.05em;
     line-height: 1.5em;
     font-weight: 500;
@@ -233,7 +262,7 @@ header::after {
 }
 .Solution p{
   font-family: sans-serif;
-  font-size: 1.5em;
+  font-size: 1.8vw;
   letter-spacing: 0.05em;
   line-height: 1.5em;
   font-weight: 500;
@@ -250,7 +279,7 @@ header::after {
 }
 .Product p{
   font-family: sans-serif;
-  font-size: 1.5em;
+  font-size: 1.8vw;
   letter-spacing: 0.05em;
   line-height: 1.5em;
   font-weight: 500;
@@ -283,44 +312,69 @@ header::after {
 @media screen and (max-width: 380px){
   .Nigeria{
     margin:3% 4% 3% 4%;
-    font-size: 0.8em;
+
   }
   .Solution{
     margin:3% 4% 3% 4%;
-    font-size: 0.8em;
+
   }
   .Product{
     margin:3% 4% 3% 4%;
-    font-size: 0.8em;
   }
 }
 @media screen and (min-width: 1250px)and (max-width: 1499px){
   .Solution{
-    font-size: 1.2em;
+
     margin:3% 15% 3% 15%;
   }
   .Nigeria{
-    font-size: 1.2em;
     margin:3% 15% 3% 15%;
   }
   .Product{
-    font-size: 1.2em;
     margin:3% 15% 3% 15%;
   }
 }
 
 @media screen and (min-width: 1500px){
   .Solution{
-    font-size: 1.5em;
     margin:3% 10% 3% 10%;
   }
   .Nigeria{
-    font-size: 1.5em;
+
     margin:3% 10% 3% 10%;
   }
   .Product{
-    font-size: 1.5em;
     margin:3% 10% 3% 10%;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 500px){
+  .Nigeria p{
+    font-size: 2.5vw;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 750px){
+  .Nigeria p{
+    font-size: 2.7vw;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 500px){
+  .Solution p{
+    font-size: 2.5vw;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 750px){
+  .Solution p{
+    font-size: 2.7vw;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 500px){
+  .Product p{
+    font-size: 2.5vw;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 750px){
+  .Product p{
+    font-size: 2.7vw;
   }
 }
 
@@ -341,7 +395,7 @@ header::after {
   }
   .Firma p{
     font-family: sans-serif;
-    font-size: 1.5em;
+    font-size: 3.5vw;
     letter-spacing: 0.05em;
     line-height: 1.5em;
     font-weight: 500;
