@@ -32,7 +32,6 @@ header::after {
 
 .NavBar li {
   display: inline-block;
-  margin-left: 6vw;
   padding-top: 3vw;
   position: relative;
 }
@@ -43,6 +42,8 @@ header::after {
   text-transform: uppercase;
   font-size: 2.5vw;
   display: block;
+  font-family:sans-serif;
+
 }
 
 .NavBar a:hover {
@@ -52,10 +53,10 @@ header::after {
 .NavBar a::before {
   content: '';
   display: block;
-  height: 5px;
+  height: 10px;
   background-color: blue;
   position: absolute;
-  bottom: 0;
+  bottom: -3px;
   width: 0%;
   transition: all ease-in-out 200ms;
 }
@@ -65,7 +66,7 @@ header::after {
 }
 
 .NavBar ul {
-  padding: 0 8vw 0 0;
+  padding: 0.5vw 14vw 0 0;
   margin: 0;
   list-style: none;
 }
@@ -75,12 +76,13 @@ header::after {
     padding: 4vw 0;
   }
 
-  .NavBar li {
-    margin-left: 6vw;
-  }
 
   .NavBar ul {
     padding: 5vw 4vw 0 0;
+  }
+
+  .NavBar .OurCompanyTitle {
+    margin-left: 6vw;
   }
 
   .NavBar a {
@@ -100,7 +102,7 @@ header::after {
   margin-right: 8%;
   padding-top: 7%;
   font-family: sans-serif;
-  font-size: 2.1vw;
+  font-size: 3.1vw;
   letter-spacing: 0.05em;
   line-height: 1.5em;
   font-weight: 500;
