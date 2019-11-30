@@ -5,41 +5,25 @@ body {
   background-color: lightgray;
 }
 
-.nav {
-  width: 100%;
-    padding-top: 3%;
-    padding-bottom: 1%;
-    background-color: white;
-    display: flex;
-    flex-flow: wrap;
+.NavBar {
+  background: white;
 }
 
-
-.nav a {
-  text-decoration: none;
-  color: black;
-  font-size: 2.5em;
-  overflow: hidden;
-}
-
-.nav a:hover {
-  font-weight: bold;
-}
-
-.nav .EDLogo {
+.NavBar img{
   float: left;
 }
 
-a:visited {
-  text-decoration: none;
-  color: black;
+.NavBar li{
+  display: inline;
 }
-
-.active {
-  text-decoration:underline dodgerblue solid 3px;
+.NavBar ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 3em;
+  text-align-last: center;
+  background-color: white;
 }
-
-
 
 /* ---------- ↓ INDEX PAGE ↓ ---------- */
 .TekstboksVisjon {
