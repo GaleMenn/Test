@@ -42,10 +42,11 @@ header::after {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 2.5vw;
+  display: block;
 }
 
 .NavBar a:hover {
-  color: blue;
+  color: black;
 }
 
 .NavBar a::before {
@@ -54,7 +55,7 @@ header::after {
   height: 5px;
   background-color: blue;
   position: absolute;
-  top: 0;
+  bottom: 0;
   width: 0%;
   transition: all ease-in-out 200ms;
 }
@@ -68,21 +69,6 @@ header::after {
   margin: 0;
   list-style: none;
 }
-
-/* @media only screen (min-width: 1466px) {
-  .container .ourLogo {
-    margin: 0% 0% -1% 40%;
-    padding: 1rem 0;
-    width: 21%;
-  }
-
-  .NavBar ul {
-    padding: 0 12rem 0 0;
-    margin: 0;
-    list-style: none;
-    margin: -1% -2% 2% -1%;
-  }
-}*/
 
  @media only screen and (min-width: 0px) and (max-width: 1000px){
   .container .ourLogo {
@@ -106,7 +92,7 @@ header::after {
 .TekstboksVisjon {
   margin-top: 3%;
   background-color: white;
-  height: 28.50em;
+  height: 30vw;
   display: block;
 }
 
@@ -114,7 +100,7 @@ header::after {
   margin-right: 8%;
   padding-top: 7%;
   font-family: sans-serif;
-  font-size: 1.5em;
+  font-size: 2.1vw;
   letter-spacing: 0.05em;
   line-height: 1.5em;
   font-weight: 500;
@@ -123,7 +109,7 @@ header::after {
 .TekstboksVisjon img {
   float: left;
   margin-right: 5%;
-  font-size: 40px;
+  height: 100%;
 }
 
 .VisjonHeleside {
@@ -169,7 +155,7 @@ header::after {
   padding-top: 2%;
 }
 
-@media screen and (max-width:1177px) {
+/* @media screen and (max-width:1177px) {
   .TekstboksVisjon {
     display: none;
   }
@@ -201,7 +187,7 @@ header::after {
     font-weight: 500;
     text-decoration: underline;
   }
-}
+} */
 
   /* ---------- ↓ SOLUTION PAGE ↓ ---------- */
   .Nigeria {
