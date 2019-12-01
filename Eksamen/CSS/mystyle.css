@@ -204,7 +204,10 @@ background-color: lightgray;
 
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 29c30d62bbed50ba3af09df989616ac5d08aca98
   /* ---------- ↓ SOLUTION PAGE ↓ ---------- */
   .Nigeria {
     background-color: white;
@@ -318,7 +321,6 @@ background-color: lightgray;
 
   }
 
-
   .Product{
     margin: 3% 7% 3% 7%;
   }
@@ -333,7 +335,6 @@ background-color: lightgray;
     margin:3% 4% 3% 4%;
   }
 
-
   .Product{
     margin:3% 4% 3% 4%;
   }
@@ -347,7 +348,6 @@ background-color: lightgray;
   .Solution{
     margin:3% 4% 3% 4%;
   }
-
 
   .Product{
     margin:3% 4% 3% 4%;
@@ -373,7 +373,6 @@ background-color: lightgray;
   .Solution{
     margin:3% 10% 3% 10%;
   }
-
 
   .Nigeria{
 
@@ -436,7 +435,6 @@ background-color: lightgray;
   }
 }
 
-
 @media screen and (min-width: 0px) and (max-width: 500px){
   .Product p{
     font-size: 3.5vw;
@@ -472,6 +470,7 @@ background-color: lightgray;
     padding-top: 2%;
     font-size: 4vw;
   }
+  
   .Firma p{
     font-family: sans-serif;
     font-size: 1.8vw;
