@@ -115,14 +115,6 @@ header::after {
   height: 100%;
 }
 
-.VisjonHeleside {
-  margin-top: 3%;
-  display: none;
-}
-
-.VisjonHeleside img {
-  width: 100%;
-}
 
 .TekstboksProblem {
   margin-top: 3%;
@@ -155,7 +147,6 @@ border-radius: 2vw;
   font-weight: 500;
 }
 
-<<<<<<< HEAD
 .TekstboksStat {
   background-color: white;
   margin: 2vw 10vw 2vw 10vw;
@@ -170,7 +161,6 @@ border-radius: 2vw;
   text-align: center;
   font-family: inherit;
   font-weight: 1000;
-  text-decoration: underline;
   padding-top: 2%;
 }
 
@@ -184,8 +174,6 @@ border-radius: 2vw;
     font-weight: 500;
 }
 
-=======
->>>>>>> c293b8f3fc16ea8b538faaa2af47853338f0121f
 @media screen and (max-width: 1160px){
   .TekstboksProblem{
     margin:3% 7% 3% 7%;
@@ -286,8 +274,8 @@ border-radius: 2vw;
 
   .Nigeria h1{
     text-align: center;
-    text-decoration: underline;
     padding-top: 2%;
+    font-size: 4vw;
   }
 
   .PrimarySchool{
@@ -304,8 +292,8 @@ border-radius: 2vw;
 
 .Solution h1{
   text-align: center;
-  text-decoration: underline;
   padding-top: 2%;
+  font-size: 4vw;
 }
 
 .Solution p{
@@ -359,8 +347,8 @@ border-radius: 2vw;
 
 .Product h1{
   text-align: center;
-  text-decoration: underline;
   padding-top: 2%;
+  font-size: 4vw;
 }
 
 .Product p{
@@ -455,7 +443,7 @@ border-radius: 2vw;
   }
 
   .Nigeria h1{
-    font-size: 3.5vw;
+    font-size: 3.8vw;
   }
 }
 
@@ -465,7 +453,7 @@ border-radius: 2vw;
   }
 
   .Nigeria h1{
-    font-size: 2.7vw;
+    font-size: 4vw;
   }
 }
 
@@ -475,7 +463,7 @@ border-radius: 2vw;
   }
 
   .Solution h1{
-    font-size: 3.5vw;
+    font-size: 3.8vw;
   }
 }
 
@@ -485,7 +473,7 @@ border-radius: 2vw;
   }
 
   .Solution h1{
-    font-size: 2.7vw;
+    font-size: 4vw;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 500px){
@@ -507,7 +495,7 @@ border-radius: 2vw;
   }
 
   .Product h1{
-    font-size: 3.5vw;
+    font-size: 3.8vw;
   }
 }
 
@@ -517,7 +505,7 @@ border-radius: 2vw;
 }
 
 .Product h1{
-  font-size: 2.7vw;
+  font-size: 4vw;
 }
 
 }
