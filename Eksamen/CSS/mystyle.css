@@ -155,6 +155,37 @@ border-radius: 2vw;
   font-weight: 500;
 }
 
+<<<<<<< HEAD
+.TekstboksStat {
+  background-color: white;
+  margin: 2vw 10vw 2vw 10vw;
+}
+.Remain{
+  width: 60%;
+  margin: 2% 20% 2% 20%;
+  border-radius: 2vw;
+}
+
+.TekstboksStat h1 {
+  text-align: center;
+  font-family: inherit;
+  font-weight: 1000;
+  text-decoration: underline;
+  padding-top: 2%;
+}
+
+.TekstboksStat p {
+  font-family: sans-serif;
+    font-size: 1.8vw;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 500;
+}
+
+=======
+>>>>>>> c293b8f3fc16ea8b538faaa2af47853338f0121f
 @media screen and (max-width: 1160px){
   .TekstboksProblem{
     margin:3% 7% 3% 7%;
@@ -286,7 +317,7 @@ border-radius: 2vw;
   padding: 0 2% 3% 2%;
 }
 
-.Solution .SolutionTekst2 {
+.Solution .SolutionTekst2 p {
   font-family: sans-serif;
   font-size: 1.8vw;
   letter-spacing: 0.05em;
@@ -351,6 +382,7 @@ border-radius: 2vw;
 
   }
 
+
   .Product{
     margin: 3% 7% 3% 7%;
   }
@@ -365,6 +397,7 @@ border-radius: 2vw;
     margin:3% 4% 3% 4%;
   }
 
+
   .Product{
     margin:3% 4% 3% 4%;
   }
@@ -378,6 +411,7 @@ border-radius: 2vw;
   .Solution{
     margin:3% 4% 3% 4%;
   }
+
 
   .Product{
     margin:3% 4% 3% 4%;
@@ -404,6 +438,7 @@ border-radius: 2vw;
     margin:3% 10% 3% 10%;
   }
 
+
   .Nigeria{
 
     margin:3% 10% 3% 10%;
@@ -453,6 +488,18 @@ border-radius: 2vw;
     font-size: 2.7vw;
   }
 }
+@media screen and (min-width: 0px) and (max-width: 500px){
+  .Solution .SolutionTekst2 p{
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 750px){
+   .Solution .SolutionTekst2 p{
+    font-size: 2.7vw;
+  }
+}
+
 
 @media screen and (min-width: 0px) and (max-width: 500px){
   .Product p{
