@@ -155,29 +155,6 @@ border-radius: 2vw;
   font-weight: 500;
 }
 
-.TekstboksStat {
-  background-color: white;
-  margin: 2vw 10vw 2vw 10vw;
-}
-
-.TekstboksStat h1 {
-  text-align: center;
-  font-family: inherit;
-  font-weight: 1000;
-  text-decoration: underline;
-  padding-top: 2%;
-}
-
-.TekstboksStat p {
-  font-family: sans-serif;
-    font-size: 1.8vw;
-    letter-spacing: 0.05em;
-    line-height: 1.5em;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-weight: 500;
-}
-
 @media screen and (max-width: 1160px){
   .TekstboksProblem{
     margin:3% 7% 3% 7%;
