@@ -14,7 +14,6 @@ header {
   border-bottom-width: 9px;
 }
 
-
 .container {
   width: 100%;
   margin: 0 auto;
@@ -49,7 +48,7 @@ header::after {
   text-transform: uppercase;
   font-size: 2.5vw;
   display: block;
-  font-family:sans-serif;
+  font-family: sans-serif;
 }
 
 .NavBar a:hover {
@@ -83,11 +82,10 @@ header::after {
   list-style: none;
 }
 
- @media only screen and (min-width: 0px) and (max-width: 1000px){
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
   .container .ourLogo {
     padding: 4vw 0;
   }
-
 
   .NavBar ul {
     padding: 5vw 4vw 0 0;
@@ -134,7 +132,6 @@ header::after {
   height: 100%;
 }
 
-
 .TekstboksProblem {
   margin-top: 3%;
   background-color: white;
@@ -149,11 +146,11 @@ header::after {
   font-size: 4vw;
 }
 
-.GenderGap{
+.GenderGap {
   width: 60%;
-margin: 6% 20% 2% 20%;
-border: 3px solid black;
-border-radius: 2vw;
+  margin: 6% 20% 2% 20%;
+  border: 3px solid black;
+  border-radius: 2vw;
 }
 
 .TekstboksProblem p {
@@ -165,112 +162,117 @@ border-radius: 2vw;
   padding-right: 5%;
   font-weight: 500;
 }
-.TekstboksProblem .OutDoorImg img{
+
+.TekstboksProblem .OutDoorImg img {
   background-color: lightgray;
-      width: 46%;
-      float: right;
-      margin: 1vw 2vw 1vw 3vw;
-      border-style: hidden;
-      border-radius: 14px;
-      border-style: solid;
+  width: 46%;
+  float: right;
+  margin: 1vw 2vw 1vw 3vw;
+  border-style: hidden;
+  border-radius: 14px;
+  border-style: solid;
 }
-.Remain{
-  width: 60%;
-  margin: 7% 20% 2% 20%;
+
+.Remain {
+  width: 50%;
+  margin: 7% 25% 2% 25%;
   border-radius: 1vw;
 }
 
-@media screen and (max-width: 1160px){
-  .TekstboksProblem{
-    margin:3% 7% 3% 7%;
+@media screen and (max-width: 1160px) {
+  .TekstboksProblem {
+    margin: 3% 7% 3% 7%;
   }
 }
 
-@media screen and (max-width: 640px){
-  .TekstboksProblem{
-    margin:3% 4% 3% 4%;
+@media screen and (max-width: 640px) {
+  .TekstboksProblem {
+    margin: 3% 4% 3% 4%;
   }
 }
 
-@media screen and (max-width: 380px){
-  .TekstboksProblem{
-    margin:3% 4% 3% 4%;
-  }
-
-}
-@media screen and (min-width: 1250px)and (max-width: 1499px){
-  .TekstboksProblem{
-    margin:3% 15% 3% 15%;
+@media screen and (max-width: 380px) {
+  .TekstboksProblem {
+    margin: 3% 4% 3% 4%;
   }
 }
 
-@media screen and (min-width: 1500px){
-  .TekstboksProblem{
-    margin:3% 10% 3% 10%;
+@media screen and (min-width: 1250px)and (max-width: 1499px) {
+  .TekstboksProblem {
+    margin: 3% 15% 3% 15%;
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 500px){
-  .TekstboksProblem p{
+@media screen and (min-width: 1500px) {
+  .TekstboksProblem {
+    margin: 3% 10% 3% 10%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .TekstboksProblem p {
     font-size: 3.5vw;
   }
-  .TekstboksProblem h1{
+
+  .TekstboksProblem h1 {
     font-size: 3.8vw;
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 750px){
-  .TekstboksProblem p{
+@media screen and (min-width: 500px) and (max-width: 750px) {
+  .TekstboksProblem p {
     font-size: 2.7vw;
   }
-  .TekstboksProblem h1{
+
+  .TekstboksProblem h1 {
     font-size: 4vw;
   }
-
 }
-  /* ---------- ↓ SOLUTION PAGE ↓ ---------- */
-  .Nigeria {
-    background-color: white;
-    margin:3% 20% 3% 20%;
-  }
 
-  .Nigeria p{
-    font-family: sans-serif;
-    font-size: 1.8vw;
-    letter-spacing: 0.05em;
-    line-height: 1.5em;
-    font-weight: 500;
-    padding: 4vw 2% 4% 2%;
-  }
+/* ---------- ↓ SOLUTION PAGE ↓ ---------- */
+.Nigeria {
+  background-color: white;
+  margin: 3% 20% 3% 20%;
+}
 
-.Nigeria .NigeriaSituation p{
+.Nigeria p {
+  font-family: sans-serif;
+  font-size: 1.8vw;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  font-weight: 500;
+  padding: 4vw 2% 4% 2%;
+}
+
+.Nigeria .NigeriaSituation p {
   margin: 2vw 2vw 2vw 2vw;
 }
-  .Nigeria h1{
-    text-align: center;
-    padding-top: 2%;
-    font-size: 4vw;
-  }
 
-  .PrimarySchool{
-    width: 60%;
-    margin: -7% 20% 0% 20%;
-    border: 3px solid black;
-    border-radius: 2vw;
-  }
-
-.Solution{
-  background-color: white;
-  margin:3% 20% 3% 20%;
-}
-
-.Solution h1{
+.Nigeria h1 {
   text-align: center;
   padding-top: 2%;
   font-size: 4vw;
 }
 
-.Solution p{
+.PrimarySchool {
+  width: 60%;
+  margin: -7% 20% 0% 20%;
+  border: 3px solid black;
+  border-radius: 2vw;
+}
+
+.Solution {
+  background-color: white;
+  margin: 3% 20% 3% 20%;
+}
+
+.Solution h1 {
+  text-align: center;
+  padding-top: 2%;
+  font-size: 4vw;
+}
+
+.Solution p {
   font-family: sans-serif;
   font-size: 1.8vw;
   letter-spacing: 0.05em;
@@ -297,41 +299,43 @@ border-radius: 2vw;
 
 .SolutionBilder .AppPic1 {
   width: 16vw;
-    padding: 2vw 2vw 2vw 2vw;
-    margin: 2vw 2vw 2vw 11vw;
-    border: solid;
-    border-radius: 3vw;
-    border-width: 0.6vw;
+  padding: 2vw 2vw 2vw 2vw;
+  margin: 2vw 2vw 2vw 11vw;
+  border: solid;
+  border-radius: 3vw;
+  border-width: 0.6vw;
 }
 
 .SolutionBilder .AppPic2 {
   width: 16vw;
-    float: right;
-    border: solid;
-    border-radius: 3vw;
-    border-width: 0.6vw;
-    padding: 2vw 2vw 2vw 2vw;
-    margin: 2vw 11vw 2vw 2vw;
+  float: right;
+  border: solid;
+  border-radius: 3vw;
+  border-width: 0.6vw;
+  padding: 2vw 2vw 2vw 2vw;
+  margin: 2vw 11vw 2vw 2vw;
 }
 
-.SelfEdDecition p{
+.SelfEdDecition p {
   margin: -4vw 2vw 2vw 2vw;
 }
-.Product{
+
+.Product {
   background-color: white;
-  margin:3% 20% 0% 20%;
+  margin: 3% 20% 0% 20%;
 }
 
-.Product h1{
+.Product h1 {
   text-align: center;
   padding-top: 2%;
   font-size: 4vw;
 }
 
-.ThePilotNigeria h1{
+.ThePilotNigeria h1 {
   margin-top: 2vw;
 }
-.Product p{
+
+.Product p {
   font-family: sans-serif;
   font-size: 1.8vw;
   letter-spacing: 0.05em;
@@ -339,271 +343,364 @@ border-radius: 2vw;
   font-weight: 500;
   padding: 0 2% 3% 2%;
 }
-.LastNed{
+
+.LastNed {
   margin: 0 20% 0% 20%;
 }
 
-.AppStoren{
+.AppStoren {
   width: 40%;
-margin: 0% 30% 0% 30%;
-
+  margin: 0% 30% 0% 30%;
 }
-.GooglePlayen{
+
+.GooglePlayen {
   width: 43%;
-    margin: 0% 30% 0% 28%;
+  margin: 0% 30% 0% 28%;
 }
 
-
-@media screen and (max-width: 500px){
-  .AppStoren{
+@media screen and (max-width: 500px) {
+  .AppStoren {
     width: 60%;
     margin: 0% 20% 0% 20%;
   }
-  .GooglePlayen{
+
+  .GooglePlayen {
     width: 60%;
     margin: 0% 20% 0% 20%;
+  }
 }
-}
-@media screen and (max-width: 1250px){
-  .Nigeria{
-    margin:12.4% 7% 3% 7%;
+
+@media screen and (max-width: 1250px) {
+  .Nigeria {
+    margin: 12.4% 7% 3% 7%;
   }
 
-  .Solution{
-    margin:3% 7% 3% 7%;
-
+  .Solution {
+    margin: 3% 7% 3% 7%;
   }
 
-  .Product{
+  .Product {
     margin: 3% 7% 3% 7%;
   }
 }
 
-@media screen and (max-width: 1000px){
-  .Nigeria{
-    margin:18.4% 4% 3% 4%;
+@media screen and (max-width: 1000px) {
+  .Nigeria {
+    margin: 18.4% 4% 3% 4%;
   }
 
-.NavBar ul {
-  padding: 5vw 2.7vw 0 0;
-}
-.VisjonTekst {
-  margin-top: 18.4vw;
-}
-
-header {
-  margin-top: -18.3vw;
-}
-  .Solution{
-    margin:3% 4% 3% 4%;
+  .NavBar ul {
+    padding: 5vw 2.7vw 0 0;
   }
 
-  .Product{
-    margin:3% 4% 3% 4%;
-  }
-}
-
-@media screen and (max-width: 380px){
-  .Nigeria{
-    margin:3% 4% 3% 4%;
+  .VisjonTekst {
+    margin-top: 18.4vw;
   }
 
-  .Solution{
-    margin:3% 4% 3% 4%;
+  header {
+    margin-top: -18.3vw;
   }
 
-  .Product{
-    margin:3% 4% 3% 4%;
+  .Solution {
+    margin: 3% 4% 3% 4%;
+  }
+
+  .Product {
+    margin: 3% 4% 3% 4%;
   }
 }
 
-@media screen and (min-width: 1250px)and (max-width: 1499px){
-  .Solution{
-    margin:3% 15% 3% 15%;
+@media screen and (max-width: 380px) {
+  .Solution {
+    margin: 3% 4% 3% 4%;
   }
 
-  .Nigeria{
-    margin:12.4% 15% 3% 15%;
+  .Product {
+    margin: 3% 4% 3% 4%;
+  }
+}
+
+@media screen and (min-width: 1250px)and (max-width: 1499px) {
+  .Solution {
+    margin: 3% 15% 3% 15%;
+  }
+
+  .Nigeria {
+    margin: 12.4% 15% 3% 15%;
     font-size: 2vw;
   }
 
-  .Product{
-    margin:3% 15% 3% 15%;
+  .Product {
+    margin: 3% 15% 3% 15%;
   }
 }
 
-@media screen and (min-width: 1500px){
-  .Solution{
-    margin:3% 10% 3% 10%;
+@media screen and (min-width: 1500px) {
+  .Solution {
+    margin: 3% 10% 3% 10%;
   }
 
-  .Nigeria{
+  .Nigeria {
     font-size: 2vw;
-    margin:12% 10% 3% 10%;
+    margin: 12% 10% 3% 10%;
   }
 
-  .Product{
-    margin:3% 10% 3% 10%;
+  .Product {
+    margin: 3% 10% 3% 10%;
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 500px){
-  .Nigeria p{
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .Nigeria p {
     font-size: 3.5vw;
   }
 
-  .Nigeria h1{
+  .Nigeria h1 {
     font-size: 3.8vw;
   }
 }
-@media screen and (min-widt: 700px) and (max-widt: 1500){
-  .Nigeria p{
+
+@media screen and (min-widt: 700px) and (max-widt: 1500) {
+  .Nigeria p {
     font-size: 2vw;
   }
 }
-@media screen and (min-width: 500px) and (max-width: 750px){
-  .Nigeria p{
+
+@media screen and (min-width: 500px) and (max-width: 750px) {
+  .Nigeria p {
     font-size: 2.7vw;
   }
 
-  .Nigeria h1{
+  .Nigeria h1 {
     font-size: 4vw;
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 500px){
-  .Solution p{
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .Solution p {
     font-size: 3.5vw;
   }
 
-  .Solution h1{
+  .Solution h1 {
     font-size: 3.8vw;
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 750px){
-  .Solution p{
+@media screen and (min-width: 500px) and (max-width: 750px) {
+  .Solution p {
     font-size: 2.7vw;
   }
 
-  .Solution h1{
+  .Solution h1 {
     font-size: 4vw;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 500px){
-  .Solution .SolutionTekst2 p{
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .Solution .SolutionTekst2 p {
     font-size: 3.5vw;
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 750px){
-   .Solution .SolutionTekst2 p{
+@media screen and (min-width: 500px) and (max-width: 750px) {
+  .Solution .SolutionTekst2 p {
     font-size: 2.7vw;
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 500px){
-  .Product p{
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .Product p {
     font-size: 3.5vw;
   }
 
-  .Product h1{
+  .Product h1 {
     font-size: 3.8vw;
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 750px){
-  .Product p{
+@media screen and (min-width: 500px) and (max-width: 750px) {
+  .Product p {
     font-size: 2.7vw;
+  }
+
+  .Product h1 {
+    font-size: 4vw;
+  }
 }
 
-.Product h1{
+/* ---------- ↓ OUR COMPANY PAGE ↓ ---------- */
+.header2 {
+  background: white;
+  position: fixed;
+  margin-top: 0vw;
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 9px;
+}
+
+.container2 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.NavBar2 {
+  float: right;
+}
+
+.header2::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container2 .ourLogo {
+  float: left;
+  padding: 1vw 0;
+  width: 21%;
+}
+
+.NavBar2 li {
+  display: inline-block;
+  padding-top: 2vw;
+  position: relative;
+  margin-left: 5.8vw;
+}
+
+.NavBar2 a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2.5vw;
+  display: block;
+  font-family: sans-serif;
+}
+
+.NavBar2 a:hover {
+  color: black;
+}
+
+.NavBar2 a.active2 {
+  border: solid #000;
+  padding: 0.1vw;
+  border-width: 0.7vw;
+}
+
+.NavBar2 a::before {
+  content: '';
+  display: block;
+  height: 10px;
+  background-color: blue;
+  position: absolute;
+  bottom: -3px;
+  width: 0%;
+  transition: all ease-in-out 200ms;
+}
+
+.NavBar2 a:hover::before {
+  width: 100%;
+}
+
+.NavBar2 ul {
+  padding: 0.5vw 14vw 0 0;
+  margin: 0;
+  list-style: none;
+}
+
+.BookImg img {
+  width: 60vw;
+  margin: 13vw 20vw 2vw 20vw;
+  background-color: white;
+  padding: 1vw 1vw 1vw 1vw;
+}
+
+.Firma {
+  margin-top: 3%;
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.Firma h1 {
+  font-family: inherit;
+  text-align: center;
+  padding-top: 2%;
   font-size: 4vw;
 }
 
+.Firma p {
+  font-family: sans-serif;
+  font-size: 1.8vw;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  font-weight: 500;
+  padding: 0 2% 3% 2%;
 }
 
-  /* ---------- ↓ OUR COMPANY PAGE ↓ ---------- */
-
-.BookImg img{
-  width: 65%;
-  margin: 2vw 2vw 2vw 14vw;
-  border-radius: 3vw;
+.ContactUs {
+  background-color: white;
+  margin: 2vw 10vw 2vw 10vw;
+  padding: 2vw 2vw 2vw 2vw;
 }
 
+.Person {
+  font-size: 2vw;
+  border-style: solid;
+  border-width: 0.4vw;
+  margin-bottom: 1vw;
+}
 
+@media screen and (max-width: 1160px) {
   .Firma {
-    margin-top: 3%;
-    background-color: white;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 3% 7% 3% 7%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .Firma {
+    margin: 3% 4% 3% 4%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .Firma {
+    margin: 3% 4% 3% 4%;
+  }
+}
+
+@media screen and (min-width: 1250px)and (max-width: 1499px) {
+  .Firma {
+    margin: 3% 15% 3% 15%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .Firma {
+    margin: 3% 10% 3% 10%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .Firma p {
+    font-size: 3.5vw;
   }
 
   .Firma h1 {
-    font-family: inherit;
-    text-align: center;
-    padding-top: 2%;
+    font-size: 3.8vw;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 750px) {
+  .Firma p {
+    font-size: 2.7vw;
+  }
+
+  .Firma h1 {
     font-size: 4vw;
   }
-
-  .Firma p{
-    font-family: sans-serif;
-    font-size: 1.8vw;
-    letter-spacing: 0.05em;
-    line-height: 1.5em;
-    font-weight: 500;
-    padding: 0 2% 3% 2%;
-  }
-
-  @media screen and (max-width: 1160px){
-    .Firma{
-      margin:3% 7% 3% 7%;
-    }
 }
 
-  @media screen and (max-width: 640px){
-    .Firma{
-      margin:3% 4% 3% 4%;
-    }
-  }
-
-
-  @media screen and (max-width: 380px){
-    .Firma{
-      margin:3% 4% 3% 4%;
-    }
-  }
-
-
-  @media screen and (min-width: 1250px)and (max-width: 1499px){
-    .Firma{
-      margin:3% 15% 3% 15%;
-    }
+.Sources {
+  background-color: white;
+  font-size: 1vw;
+  padding: 2vw 2vw 2vw 2vw;
 }
-
-  @media screen and (min-width: 1500px){
-    .Firma{
-      margin:3% 10% 3% 10%;
-    }
-  }
-
-
-  @media screen and (min-width: 0px) and (max-width: 500px){
-    .Firma p{
-      font-size: 3.5vw;
-    }
-
-    .Firma h1{
-      font-size: 3.8vw;
-    }
-  }
-
-  @media screen and (min-width: 500px) and (max-width: 750px){
-    .Firma p{
-      font-size: 2.7vw;
-    }
-
-    .Firma h1{
-      font-size: 4vw;
-    }
-  }
