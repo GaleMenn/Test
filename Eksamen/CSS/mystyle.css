@@ -146,32 +146,13 @@ border-radius: 2vw;
   padding-right: 5%;
   font-weight: 500;
 }
-
-.TekstboksStat {
-  background-color: white;
-  margin: 2vw 10vw 2vw 10vw;
+.TekstboksProblem .OutDoorImg img{
+background-color: lightgray;
 }
 .Remain{
   width: 60%;
   margin: 2% 20% 2% 20%;
   border-radius: 2vw;
-}
-
-.TekstboksStat h1 {
-  text-align: center;
-  font-family: inherit;
-  font-weight: 1000;
-  padding-top: 2%;
-}
-
-.TekstboksStat p {
-  font-family: sans-serif;
-    font-size: 1.8vw;
-    letter-spacing: 0.05em;
-    line-height: 1.5em;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-weight: 500;
 }
 
 @media screen and (max-width: 1160px){
@@ -223,39 +204,6 @@ border-radius: 2vw;
 
 }
 
-/* @media screen and (max-width:1177px) {
-  .TekstboksVisjon {
-    display: none;
-  }
-
-  .VisjonHeleside {
-    display: block;
-
-  }
-
-  .VisjontekstHele {
-    font-family: sans-serif;
-    font-size: 1.5em;
-    letter-spacing: 0.05em;
-    line-height: 1.5em;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 3%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 3%;
-    padding-top: 2%;
-    font-weight: 500;
-    background-color: white;
-  }
-
-  .VisjontekstHele h1 {
-    text-align: center;
-    font-family: inherit;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-} */
 
   /* ---------- ↓ SOLUTION PAGE ↓ ---------- */
   .Nigeria {
@@ -520,10 +468,9 @@ border-radius: 2vw;
 
   .Firma h1 {
     font-family: inherit;
-    font-weight: 500;
     text-align: center;
-    text-decoration: underline;
     padding-top: 2%;
+    font-size: 4vw;
   }
   .Firma p{
     font-family: sans-serif;
@@ -544,28 +491,45 @@ border-radius: 2vw;
     .Firma{
       margin:3% 4% 3% 4%;
     }
-}
+  }
+
 
   @media screen and (max-width: 380px){
     .Firma{
       margin:3% 4% 3% 4%;
-      font-size: 0.8em;
     }
   }
+
 
   @media screen and (min-width: 1250px)and (max-width: 1499px){
     .Firma{
-      font-size: 1.2em;
       margin:3% 15% 3% 15%;
     }
-
-  }
-
+}
 
   @media screen and (min-width: 1500px){
     .Firma{
-      font-size: 1.5em;
       margin:3% 10% 3% 10%;
     }
+  }
 
+
+  @media screen and (min-width: 0px) and (max-width: 500px){
+    .Firma p{
+      font-size: 3.5vw;
+    }
+
+    .Firma h1{
+      font-size: 3.8vw;
+    }
+  }
+
+  @media screen and (min-width: 500px) and (max-width: 750px){
+    .Firma p{
+      font-size: 2.7vw;
+    }
+
+    .Firma h1{
+      font-size: 4vw;
+    }
   }
