@@ -7,7 +7,13 @@ body {
 
 header {
   background: white;
+  position: fixed;
+  margin-top: -12.3vw;
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 9px;
 }
+
 
 .container {
   width: 100%;
@@ -32,7 +38,7 @@ header::after {
 
 .NavBar li {
   display: inline-block;
-  padding-top: 3vw;
+  padding-top: 2vw;
   position: relative;
   margin-left: 5.8vw;
 }
@@ -48,6 +54,12 @@ header::after {
 
 .NavBar a:hover {
   color: black;
+}
+
+.NavBar a.active {
+  border: solid #000;
+  padding: 0.1vw;
+  border-width: 0.7vw;
 }
 
 .NavBar a::before {
@@ -91,11 +103,19 @@ header::after {
 }
 
 /* ---------- ↓ INDEX PAGE ↓ ---------- */
+.Intro {
+  margin-top: 5%;
+}
+
 .TekstboksVisjon {
   margin-top: 3%;
   background-color: white;
   height: 30vw;
   display: block;
+}
+
+.VisjonTekst {
+  margin-top: 12.3vw;
 }
 
 .VisjonTekst p {
@@ -131,7 +151,7 @@ header::after {
 
 .GenderGap{
   width: 60%;
-margin: 2% 20% 2% 20%;
+margin: 6% 20% 2% 20%;
 border: 3px solid black;
 border-radius: 2vw;
 }
@@ -146,14 +166,18 @@ border-radius: 2vw;
   font-weight: 500;
 }
 .TekstboksProblem .OutDoorImg img{
-background-color: lightgray;
-width: 60%;
-    padding: 2vw 34vw 2vw 0vw;
+  background-color: lightgray;
+      width: 46%;
+      float: right;
+      margin: 1vw 2vw 1vw 3vw;
+      border-style: hidden;
+      border-radius: 14px;
+      border-style: solid;
 }
 .Remain{
   width: 60%;
-  margin: 2% 20% 2% 20%;
-  border-radius: 2vw;
+  margin: 7% 20% 2% 20%;
+  border-radius: 1vw;
 }
 
 @media screen and (max-width: 1160px){
@@ -216,9 +240,12 @@ width: 60%;
     letter-spacing: 0.05em;
     line-height: 1.5em;
     font-weight: 500;
-    padding: 0 2% 3% 2%;
+    padding: 4vw 2% 4% 2%;
   }
 
+.Nigeria .NigeriaSituation p{
+  margin: 2vw 2vw 2vw 2vw;
+}
   .Nigeria h1{
     text-align: center;
     padding-top: 2%;
@@ -227,7 +254,7 @@ width: 60%;
 
   .PrimarySchool{
     width: 60%;
-    margin: 2% 20% 2% 20%;
+    margin: -7% 20% 0% 20%;
     border: 3px solid black;
     border-radius: 2vw;
   }
@@ -270,23 +297,26 @@ width: 60%;
 
 .SolutionBilder .AppPic1 {
   width: 16vw;
-  padding: 2vw 2vw 2vw 2vw;
-  margin: 2vw 2vw 2vw 2vw;
-  border: solid;
-  border-radius: 3vw;
-  border-width: 0.6vw;
+    padding: 2vw 2vw 2vw 2vw;
+    margin: 2vw 2vw 2vw 11vw;
+    border: solid;
+    border-radius: 3vw;
+    border-width: 0.6vw;
 }
 
 .SolutionBilder .AppPic2 {
   width: 16vw;
-  float: right;
-  border: solid;
-  border-radius: 3vw;
-  border-width: 0.6vw;
-  padding: 2vw 2vw 2vw 2vw;
-  margin: 2vw 2vw 2vw 2vw;
+    float: right;
+    border: solid;
+    border-radius: 3vw;
+    border-width: 0.6vw;
+    padding: 2vw 2vw 2vw 2vw;
+    margin: 2vw 11vw 2vw 2vw;
 }
 
+.SelfEdDecition p{
+  margin: -4vw 2vw 2vw 2vw;
+}
 .Product{
   background-color: white;
   margin:3% 20% 0% 20%;
@@ -298,6 +328,9 @@ width: 60%;
   font-size: 4vw;
 }
 
+.ThePilotNigeria h1{
+  margin-top: 2vw;
+}
 .Product p{
   font-family: sans-serif;
   font-size: 1.8vw;
@@ -307,7 +340,6 @@ width: 60%;
   padding: 0 2% 3% 2%;
 }
 .LastNed{
-  border: 2px solid black;
   margin: 0 20% 0% 20%;
 }
 
@@ -317,9 +349,11 @@ margin: 0% 30% 0% 30%;
 
 }
 .GooglePlayen{
-  width: 40%;
-  margin: 0% 30% 0% 30%;
+  width: 43%;
+    margin: 0% 30% 0% 28%;
 }
+
+
 @media screen and (max-width: 500px){
   .AppStoren{
     width: 60%;
@@ -330,9 +364,9 @@ margin: 0% 30% 0% 30%;
     margin: 0% 20% 0% 20%;
 }
 }
-@media screen and (max-width: 1160px){
+@media screen and (max-width: 1250px){
   .Nigeria{
-    margin:3% 7% 3% 7%;
+    margin:12.4% 7% 3% 7%;
   }
 
   .Solution{
@@ -345,11 +379,21 @@ margin: 0% 30% 0% 30%;
   }
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 1000px){
   .Nigeria{
-    margin:3% 4% 3% 4%;
+    margin:18.4% 4% 3% 4%;
   }
 
+.NavBar ul {
+  padding: 5vw 2.7vw 0 0;
+}
+.VisjonTekst {
+  margin-top: 18.4vw;
+}
+
+header {
+  margin-top: -18.3vw;
+}
   .Solution{
     margin:3% 4% 3% 4%;
   }
@@ -375,12 +419,12 @@ margin: 0% 30% 0% 30%;
 
 @media screen and (min-width: 1250px)and (max-width: 1499px){
   .Solution{
-
     margin:3% 15% 3% 15%;
   }
 
   .Nigeria{
-    margin:3% 15% 3% 15%;
+    margin:12.4% 15% 3% 15%;
+    font-size: 2vw;
   }
 
   .Product{
@@ -394,8 +438,8 @@ margin: 0% 30% 0% 30%;
   }
 
   .Nigeria{
-
-    margin:3% 10% 3% 10%;
+    font-size: 2vw;
+    margin:12% 10% 3% 10%;
   }
 
   .Product{
@@ -412,7 +456,11 @@ margin: 0% 30% 0% 30%;
     font-size: 3.8vw;
   }
 }
-
+@media screen and (min-widt: 700px) and (max-widt: 1500){
+  .Nigeria p{
+    font-size: 2vw;
+  }
+}
 @media screen and (min-width: 500px) and (max-width: 750px){
   .Nigeria p{
     font-size: 2.7vw;
@@ -476,11 +524,6 @@ margin: 0% 30% 0% 30%;
 }
 
   /* ---------- ↓ OUR COMPANY PAGE ↓ ---------- */
-.BookImg {
-  width: 80%;
-  margin: 2vw 6vw 2vw 10vw;
-  background-color: white;
-}
 
 .BookImg img{
   width: 65%;
