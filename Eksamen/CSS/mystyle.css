@@ -34,6 +34,7 @@ header::after {
   display: inline-block;
   padding-top: 3vw;
   position: relative;
+  margin-left: 5.8vw;
 }
 
 .NavBar a {
@@ -130,13 +131,13 @@ header::after {
   margin-right: 15%;
 }
 
-
 .TekstboksProblem h1 {
-  font-family: inherit;
-  font-weight: 500;
   text-align: center;
-  padding-top: 2%;
+  padding-top: 1vw;
+  font-family: sans-serif;
+  font-size: 4vw;
 }
+
 .GenderGap{
   width: 60%;
 margin: 2% 20% 2% 20%;
@@ -154,12 +155,27 @@ border-radius: 2vw;
   font-weight: 500;
 }
 
+.TekstboksStat {
+  background-color: white;
+  margin: 2vw 10vw 2vw 10vw;
+}
+
 .TekstboksStat h1 {
   text-align: center;
   font-family: inherit;
   font-weight: 1000;
   text-decoration: underline;
   padding-top: 2%;
+}
+
+.TekstboksStat p {
+  font-family: sans-serif;
+    font-size: 1.8vw;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 1160px){
@@ -173,6 +189,7 @@ border-radius: 2vw;
     margin:3% 4% 3% 4%;
   }
 }
+
 @media screen and (max-width: 380px){
   .TekstboksProblem{
     margin:3% 4% 3% 4%;
@@ -190,6 +207,7 @@ border-radius: 2vw;
     margin:3% 10% 3% 10%;
   }
 }
+
 @media screen and (min-width: 0px) and (max-width: 500px){
   .TekstboksProblem p{
     font-size: 3.5vw;
@@ -198,13 +216,15 @@ border-radius: 2vw;
     font-size: 3.8vw;
   }
 }
+
 @media screen and (min-width: 500px) and (max-width: 750px){
   .TekstboksProblem p{
     font-size: 2.7vw;
   }
   .TekstboksProblem h1{
-    font-size: 3vw;
+    font-size: 4vw;
   }
+
 }
 
 /* @media screen and (max-width:1177px) {
@@ -245,8 +265,8 @@ border-radius: 2vw;
   .Nigeria {
     background-color: white;
     margin:3% 20% 3% 20%;
-
   }
+
   .Nigeria p{
     font-family: sans-serif;
     font-size: 1.8vw;
@@ -255,26 +275,31 @@ border-radius: 2vw;
     font-weight: 500;
     padding: 0 2% 3% 2%;
   }
+
   .Nigeria h1{
     text-align: center;
     text-decoration: underline;
     padding-top: 2%;
   }
+
   .PrimarySchool{
     width: 60%;
     margin: 2% 20% 2% 20%;
     border: 3px solid black;
     border-radius: 2vw;
   }
+
 .Solution{
   background-color: white;
   margin:3% 20% 3% 20%;
 }
+
 .Solution h1{
   text-align: center;
   text-decoration: underline;
   padding-top: 2%;
 }
+
 .Solution p{
   font-family: sans-serif;
   font-size: 1.8vw;
@@ -283,21 +308,53 @@ border-radius: 2vw;
   font-weight: 500;
   padding: 0 2% 3% 2%;
 }
-.Solution .SolutionBilder{
-  width: 60%;
-  margin: 2% 20% 2% 20%;
-  border: 3px solid black;
-  border-radius: 2vw;
+
+.Solution .SolutionTekst2 {
+  font-family: sans-serif;
+  font-size: 1.8vw;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  font-weight: 500;
+  padding: 0 2% 3% 2%;
 }
+
+.Solution .SolutionBilder {
+  width: 100%;
+  margin: 0vw 0vw 3vw 0vw;
+  display: flex;
+  justify-content: center;
+}
+
+.SolutionBilder .AppPic1 {
+  width: 16vw;
+  padding: 2vw 2vw 2vw 2vw;
+  margin: 2vw 2vw 2vw 2vw;
+  border: solid;
+  border-radius: 3vw;
+  border-width: 0.6vw;
+}
+
+.SolutionBilder .AppPic2 {
+  width: 16vw;
+  float: right;
+  border: solid;
+  border-radius: 3vw;
+  border-width: 0.6vw;
+  padding: 2vw 2vw 2vw 2vw;
+  margin: 2vw 2vw 2vw 2vw;
+}
+
 .Product{
   background-color: white;
   margin:3% 20% 3% 20%;
 }
+
 .Product h1{
   text-align: center;
   text-decoration: underline;
   padding-top: 2%;
 }
+
 .Product p{
   font-family: sans-serif;
   font-size: 1.8vw;
@@ -306,14 +363,17 @@ border-radius: 2vw;
   font-weight: 500;
   padding: 0 2% 3% 2%;
 }
+
 @media screen and (max-width: 1160px){
   .Nigeria{
     margin:3% 7% 3% 7%;
   }
+
   .Solution{
     margin:3% 7% 3% 7%;
 
   }
+
   .Product{
     margin: 3% 7% 3% 7%;
   }
@@ -323,34 +383,40 @@ border-radius: 2vw;
   .Nigeria{
     margin:3% 4% 3% 4%;
   }
+
   .Solution{
     margin:3% 4% 3% 4%;
   }
+
   .Product{
     margin:3% 4% 3% 4%;
   }
 }
+
 @media screen and (max-width: 380px){
   .Nigeria{
     margin:3% 4% 3% 4%;
-
   }
+
   .Solution{
     margin:3% 4% 3% 4%;
-
   }
+
   .Product{
     margin:3% 4% 3% 4%;
   }
 }
+
 @media screen and (min-width: 1250px)and (max-width: 1499px){
   .Solution{
 
     margin:3% 15% 3% 15%;
   }
+
   .Nigeria{
     margin:3% 15% 3% 15%;
   }
+
   .Product{
     margin:3% 15% 3% 15%;
   }
@@ -360,58 +426,72 @@ border-radius: 2vw;
   .Solution{
     margin:3% 10% 3% 10%;
   }
+
   .Nigeria{
 
     margin:3% 10% 3% 10%;
   }
+
   .Product{
     margin:3% 10% 3% 10%;
   }
 }
+
 @media screen and (min-width: 0px) and (max-width: 500px){
   .Nigeria p{
     font-size: 3.5vw;
   }
+
   .Nigeria h1{
     font-size: 3.5vw;
   }
 }
+
 @media screen and (min-width: 500px) and (max-width: 750px){
   .Nigeria p{
     font-size: 2.7vw;
   }
+
   .Nigeria h1{
     font-size: 2.7vw;
   }
 }
+
 @media screen and (min-width: 0px) and (max-width: 500px){
   .Solution p{
     font-size: 3.5vw;
   }
+
   .Solution h1{
     font-size: 3.5vw;
   }
 }
+
 @media screen and (min-width: 500px) and (max-width: 750px){
   .Solution p{
     font-size: 2.7vw;
   }
+
   .Solution h1{
     font-size: 2.7vw;
   }
 }
+
 @media screen and (min-width: 0px) and (max-width: 500px){
   .Product p{
     font-size: 3.5vw;
   }
+
   .Product h1{
     font-size: 3.5vw;
   }
 }
+
 @media screen and (min-width: 500px) and (max-width: 750px){
   .Product p{
     font-size: 2.7vw;
 }
+
 .Product h1{
   font-size: 2.7vw;
 }
@@ -435,12 +515,13 @@ border-radius: 2vw;
   }
   .Firma p{
     font-family: sans-serif;
-    font-size: 3.5vw;
+    font-size: 1.8vw;
     letter-spacing: 0.05em;
     line-height: 1.5em;
     font-weight: 500;
     padding: 0 2% 3% 2%;
   }
+
   @media screen and (max-width: 1160px){
     .Firma{
       margin:3% 7% 3% 7%;
@@ -452,6 +533,7 @@ border-radius: 2vw;
       margin:3% 4% 3% 4%;
     }
 }
+
   @media screen and (max-width: 380px){
     .Firma{
       margin:3% 4% 3% 4%;
