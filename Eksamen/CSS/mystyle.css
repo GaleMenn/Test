@@ -155,6 +155,7 @@ border-radius: 2vw;
   font-weight: 500;
 }
 
+<<<<<<< HEAD
 .TekstboksStat {
   background-color: white;
   margin: 2vw 10vw 2vw 10vw;
@@ -183,6 +184,8 @@ border-radius: 2vw;
     font-weight: 500;
 }
 
+=======
+>>>>>>> c293b8f3fc16ea8b538faaa2af47853338f0121f
 @media screen and (max-width: 1160px){
   .TekstboksProblem{
     margin:3% 7% 3% 7%;
