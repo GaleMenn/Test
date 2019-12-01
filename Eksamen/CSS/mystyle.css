@@ -204,8 +204,11 @@ width: 60%;
   }
 
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 1a734c0077d873c35633d2f34dcac0e50bdc3f70
   /* ---------- ↓ SOLUTION PAGE ↓ ---------- */
   .Nigeria {
     background-color: white;
@@ -291,7 +294,7 @@ width: 60%;
 
 .Product{
   background-color: white;
-  margin:3% 20% 3% 20%;
+  margin:3% 20% 0% 20%;
 }
 
 .Product h1{
@@ -308,7 +311,30 @@ width: 60%;
   font-weight: 500;
   padding: 0 2% 3% 2%;
 }
+.LastNed{
+  border: 2px solid black;
+  margin: 0 20% 0% 20%;
+}
 
+.AppStoren{
+  width: 40%;
+margin: 0% 30% 0% 30%;
+
+}
+.GooglePlayen{
+  width: 40%;
+  margin: 0% 30% 0% 30%;
+}
+@media screen and (max-width: 500px){
+  .AppStoren{
+    width: 60%;
+    margin: 0% 20% 0% 20%;
+  }
+  .GooglePlayen{
+    width: 60%;
+    margin: 0% 20% 0% 20%;
+}
+}
 @media screen and (max-width: 1160px){
   .Nigeria{
     margin:3% 7% 3% 7%;
