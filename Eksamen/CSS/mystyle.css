@@ -44,7 +44,6 @@ header::after {
   font-size: 2.5vw;
   display: block;
   font-family:sans-serif;
-
 }
 
 .NavBar a:hover {
@@ -148,6 +147,8 @@ border-radius: 2vw;
 }
 .TekstboksProblem .OutDoorImg img{
 background-color: lightgray;
+width: 60%;
+    padding: 2vw 34vw 2vw 0vw;
 }
 .Remain{
   width: 60%;
@@ -204,10 +205,7 @@ background-color: lightgray;
 
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 29c30d62bbed50ba3af09df989616ac5d08aca98
   /* ---------- ↓ SOLUTION PAGE ↓ ---------- */
   .Nigeria {
     background-color: white;
@@ -457,6 +455,19 @@ background-color: lightgray;
 }
 
   /* ---------- ↓ OUR COMPANY PAGE ↓ ---------- */
+.BookImg {
+  width: 80%;
+  margin: 2vw 6vw 2vw 10vw;
+  background-color: white;
+}
+
+.BookImg img{
+  width: 65%;
+  margin: 2vw 2vw 2vw 14vw;
+  border-radius: 3vw;
+}
+
+
   .Firma {
     margin-top: 3%;
     background-color: white;
@@ -470,7 +481,7 @@ background-color: lightgray;
     padding-top: 2%;
     font-size: 4vw;
   }
-  
+
   .Firma p{
     font-family: sans-serif;
     font-size: 1.8vw;
